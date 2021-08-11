@@ -1,4 +1,4 @@
-.Home .card-container {
+.Add {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,11 +9,24 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  text-align: center;
 }
 
-.Home .card-container .blockquote-footer {
-  text-align: right;
-  margin-top: 5px;
+.Add form {
+  text-align: left;
+}
+
+.Add form .form-label {
+  font-size: 14px;
   margin-bottom: 0;
 }
-/*# sourceMappingURL=Home.css.map */
+
+.Add form .form-control {
+  min-width: 300px;
+}
+
+.Add form .form-control#quote {
+  margin-bottom: 20px;
+  resize: none;
+}
+/*# sourceMappingURL=Add.css.map */
