@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Button.css';
 
-const Button = ({ text, isFixed }) => {
+const Button = ({ text, isFixed, type = 'button' }) => {
     return (
-        <button className={`Button${ isFixed ? ' fixed' : '' }`}>
+        <button type={type} className={`Button${ isFixed ? ' fixed' : '' }`}>
             { text }
         </button>
     )

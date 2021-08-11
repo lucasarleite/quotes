@@ -1,4 +1,4 @@
-.Home .cards-container {
+.Home .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,5 +9,10 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.Home .card-container .blockquote-footer {
+  text-align: right;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=Home.css.map */

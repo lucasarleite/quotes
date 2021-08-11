@@ -1,7 +1,12 @@
 .Home {
-    .cards-container {
+    .card-container {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+
+        .blockquote-footer {
+            text-align: right;
+            margin-top: 5px;
+        }
     }
 }
