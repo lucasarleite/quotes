@@ -1,0 +1,11 @@
+POST http://localhost:5000/quotes
+content-type: application/json
+
+{
+    "quote": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche"
+}
+
+###
+
+GET http://localhost:5000/quotes
