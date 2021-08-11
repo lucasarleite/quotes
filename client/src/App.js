@@ -1,12 +1,12 @@
 import React from 'react';
-import Card from './components/Card/Card';
 
 import './App.css';
+import Home from './views/Home/Home';
 
 const App = () => {
   return (
     <div className="App container">
-      <Card />
+      <Home />
     </div>
   )
 }
