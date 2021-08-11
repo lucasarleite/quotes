@@ -1,4 +1,6 @@
 .Card {
+  min-width: 300px;
+  min-height: 122px;
   background-color: white;
   padding: 20px 60px 40px;
   margin-left: 170px;
@@ -8,7 +10,24 @@
           box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-.Card img {
+.Card.centerItens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 60px;
+}
+
+.Card #cookie {
   position: absolute;
   width: 220px;
   top: -30px;

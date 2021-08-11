@@ -11,9 +11,29 @@
           align-items: flex-end;
 }
 
+.Home .card-container #loading {
+  height: 62px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+}
+
 .Home .card-container .blockquote-footer {
   text-align: right;
   margin-top: 5px;
   margin-bottom: 0;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=Home.css.map */

@@ -4,10 +4,19 @@
         flex-direction: column;
         align-items: flex-end;
 
+        #loading {
+            height: 62px;
+            animation: spin 2s linear infinite;
+        }
+
         .blockquote-footer {
             text-align: right;
             margin-top: 5px;
             margin-bottom: 0;
         }
     }
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
 }
