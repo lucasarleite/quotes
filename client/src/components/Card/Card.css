@@ -1,0 +1,22 @@
+.Card {
+  background-color: white;
+  padding: 20px;
+  padding-left: 60px;
+  margin-left: 170px;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.Card img {
+  position: absolute;
+  width: 220px;
+  top: -30px;
+  left: -170px;
+}
+
+.Card .blockquote-footer {
+  text-align: right;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=Card.css.map */
