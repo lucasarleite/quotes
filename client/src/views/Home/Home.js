@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Card from '../../components/Card/Card';
 import Button from '../../components/Button/Button';
@@ -11,7 +12,9 @@ const Home = () => {
                 <Card />
                 <Button text="Get a New Quote" />
             </div>
-            <Button text="Add a New Quote" isFixed />
+            <Link to="/add">
+                <Button text="Add a New Quote" isFixed />
+            </Link>
         </div>
     )
 }
