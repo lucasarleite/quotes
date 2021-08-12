@@ -1,8 +1,8 @@
 # Random Quotes ReadMe
 
-1. Go to *server* folder and run *npm start*.
+1. Go to *server* folder and run *npm install* then *npm start*.
 
-2. Go to *client* folder and run *npm start*.
+2. Go to *client* folder and run *npm install* then *npm start*.
 
 3. Server will run at http://localhost:5000. 
     - You can make GET and POST calls to http://localhost:5000/quotes.
