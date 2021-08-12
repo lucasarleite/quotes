@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Button from './Button';
-import { expect, test } from '@jest/globals';
 
 describe('Button Component Tests', () => {
     test('it should render a Button', () => {

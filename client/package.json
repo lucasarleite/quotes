@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -43,12 +44,14 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "^.+\\.(css|less)$": "<rootDir>/__mocks__/css.mock.js"
+      "^.+\\.(css|less|png)$": "<rootDir>/__mocks__/imports.mock.js"
     },
     "collectCoverage": true,
-    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
-    "coveragePathIgnorePatterns" : [
-      "src/index.js" 
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "src/index.js"
     ]
   }
 }
