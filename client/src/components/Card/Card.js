@@ -6,7 +6,7 @@ import cookieImg from '../../img/cookie.png';
 const Card = ({ children, centerItens }) => {
     return (
         <div className={`Card${ centerItens ? ' centerItens' : '' }`}>
-            <img id="cookie" src={cookieImg} />
+            <img id="cookie" src={cookieImg} alt="" />
             { children }
         </div>
     )

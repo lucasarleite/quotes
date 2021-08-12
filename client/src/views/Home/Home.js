@@ -36,7 +36,7 @@ const Home = () => {
             <div className="card-container">
                 <Card centerItens={ isLoading ? true : false }>
                     {
-                        isLoading && <img id="loading" src={loadingImg} />
+                        isLoading && <img id="loading" src={loadingImg} alt="Loading" />
                     }
                     {
                         !isLoading && (
