@@ -44,6 +44,11 @@
   "jest": {
     "moduleNameMapper": {
       "^.+\\.(css|less)$": "<rootDir>/__mocks__/css.mock.js"
-    }
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "coveragePathIgnorePatterns" : [
+      "src/index.js" 
+    ]
   }
 }
